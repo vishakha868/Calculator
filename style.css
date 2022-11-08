@@ -1,0 +1,229 @@
+body {
+	margin: 0em;
+	padding: 0em;
+    overflow-x:hidden;
+}
+
+.flex-container {
+	display: flex;
+	background-color: #041b36;
+	height: 4.375em;
+	width: 100%;
+	position: fixed;
+}
+
+.flex-container>div {
+	margin: 0.9375em 0em 0em 3.125em;
+	color: white;
+	text-align: center;
+	font-size: 1.0000em;
+
+}
+
+.admin-flex {
+	display: flex;
+	padding-left: 6.25em;
+}
+
+.admin-flex>div {
+	padding: 0.25em;
+	font-size: 1.125em;
+}
+
+.flex-container>div>img {
+	height: 3em;
+	width: 7.5em;
+}
+
+.right {
+	float: right;
+}
+
+select {
+	margin-top:0.6em;
+	height:2.2em;
+	width:10.9em;
+}
+
+input[type=text],input[type=date],input[type=number] {
+	padding:0.3425em;
+	margin-top:0.6em;
+}
+
+.search-container button {
+	float: right;
+	margin-top: 8px;
+	margin-right: 1em;
+	background: darkcyan;
+	font-size: 1.2500em;
+	height: 28px;
+	width: 30px;
+	color: white;
+	padding: 2px 4px 4px 2px;
+	border: none;
+	cursor: pointer;
+}
+
+.side-bar {
+	background-color: #384c63;
+	width: 60px;
+	margin-top: 70px;
+	height: 100%;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+}
+
+.side-bar>a>i {
+	color: white;
+	padding: 16px 16px 16px 16px;
+}
+
+.side-bar>button {
+	background-color: #041b36;
+	border: none;
+	color: white;
+	padding: 10px;
+	margin: 12px;
+}
+
+.box-container {
+	position: inherit;
+	padding-left: 80px;
+	border: solid 1px;
+	border-color: #b8c6d6;
+	height: 750px;
+	width: 1080px;
+	margin: 90px 0px 10px 80px;
+}
+
+.box-header {
+	display: flex;
+	background-color: #384c63;
+	width: auto;
+	padding: 15px;
+	margin-left: -80px;
+	height: 35px;
+	color: white;
+	font-size: 1.2500em;
+}
+
+.box-header>div>div>button {
+	background-color: darkcyan;
+	border-radius: 4px;
+	border: darkcyan;
+	color: white;
+	padding: 9px;
+	margin-left: 20px;
+	/* font-weight: ; */
+	/* font-size:0.9370em; */
+}
+
+.body-flex {
+	display: flex;
+}
+
+.body-form {
+	margin-left: -80px;
+}
+
+.Salary-form {
+	padding: 0px 2px 0px 2px;
+}
+
+label,
+.Salary-form>input,
+.Salary-form>button {
+	margin-left: 15px;
+}
+.set-input>td>input{
+	width:35px;
+}
+
+.close {
+	border: none;
+	color: red;
+	background-color: white;
+}
+
+table {
+	border-collapse: collapse;
+	width:40%;
+}
+
+.form-1 {
+	margin: 30px 0px 0px -3px;
+	float: left;
+	width: 55%;
+	overflow-y: scroll;
+	height: 450px;
+	border-bottom: 2px solid;
+	border-color: #b8c6d6;
+}
+
+.form-2 {
+    margin:20px -2px 0px -10px;
+	float: right;
+	width: 45%;
+}
+
+.button-flex {
+	display: flex;
+	color: white;
+	width:50%;
+}
+
+.button-flex>div {
+	padding: 10px;
+}
+
+.button-flex>div>button {
+	width:290px;
+	height: 40px;
+	border: none;
+	color: white;
+}
+
+select>option[disabled] {
+	background: darkcyan;
+	color: white;
+}
+
+.AddItem {
+	color: white;
+	background-color: darkcyan;
+	border: none;
+	padding: 10px;
+	margin-left: 10px;
+}
+.hd{
+    border: 0cm black solid;
+    font-size: large;
+    color: white;
+    background-color: steelblue;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 0.75em;
+    padding-right: 0.25em;
+    padding-bottom: 0.75em;
+}
+.hd1{
+    border: 0cm black solid;
+    font-size: large;
+    color: white;
+    background-color: steelblue;
+    font-family: 'Courier New', Courier, monospace;
+    padding:0.5em 0.5em 0.5em 0em;
+}
+tr>td{
+    font-size:0.8125em;
+    padding:0px 10px 0px 10px;
+}
+td>form>input,td>form>select{
+width:90px;
+height:10px;
+}
+.form-2-drop{
+    width:100px;
+    padding:0px;
+    margin:0px;
+}

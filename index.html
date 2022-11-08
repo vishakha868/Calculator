@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Auro Mine Solutions
+        </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+          <header>
+              <div class="flex-container">
+                <div><img src="Auro_Mine-removebg-preview.png" alt="auro mine"/></div>
+                   <div>11 Days left<br>Activate your activate now .</div>
+                   <div class="admin-flex">
+                   <div style="margin-left:8em;">
+                       <select>
+                           <option value="Account Name" selected disabled>Account name</option>
+                           <option>Siddharth</option>
+                           <option>Ankita</option>
+                           <option>Harshit</option>
+                       </select>
+                    </div>
+                   <div class="search-container">
+                       <input type="text" placeholder="Account Name (or) Id" name="search">
+                       <button><i class="fa fa-search"></i></button>
+                </div>
+                   <div style="margin-top:0.625em;">sophos</div>
+                       <div style="font-size:20px;margin-top:10px;">
+                           <i class="fa fa-user"></i>
+                        </div>
+                        <div style="margin-top:10px;">Admin</div>
+                        <div style="margin-top:10px;">
+                            <i class="fa fa-chevron-down"></i>
+                        </div>
+                    </div>
+              </div>
+          </header>
+          <div class="body-flex">
+            <div class="side-bar">
+                <button><i class="fa fa-chevron-left"></i></button><br>
+                <a><i class="fa fa-book"></i></a><br>
+                <a><i class="fa fa-user"></i></a><br>
+                <a><i class="fa fa-male"></i></a><br>
+                <a><i class="fa fa-pinterest"></i></a><br>
+                <a><i class="fa fa-shopping-cart"></i></a><br>
+                <a><i class="fa fa-tag"></i></a><br>
+                <a><i class="fa fa-bar-chart"></i></a><br>
+                <a><i class="fa fa-list"></i></a><br>
+                <button><i class="fa fa-chevron-left"></i></button>
+        </div>
+        <div class="box-container">
+            <div class="box-header">
+                <div style="float:left;width:80%">Sales Form</div>
+                <div style="float:right;display:flex;width:20%;">
+                    <div><button value="New Sales">New Sales</button></div>
+                    <div><button value="Sales Return">Sales Return</button></div>
+                </div>
+            </div>
+            <div class="body-form">
+                <form class="Salary-form">
+                    <label for="Sales type">Sales Type</label>
+                    <input type="text" id="Sales type"  placeholder="POS Types"/>
+                    <label for="Sales person">Sales Person Name</label>
+                    <input type="text" id="Sales person"  placeholder="Name"/>
+                    <label for="discount">Disc % type</label>
+                    <select>
+                        <option value="Discount type" selected disabled>Discount type</option>
+                        <option>Regular</option>
+                        <option>Monthly</option>
+                        <option>Weekly</option>
+                    </select>
+                    <label for="gst">GST Type</label>
+                    <input type="text" id="gst"  placeholder="Enter the type"/>
+                    <br><br><hr>
+                    <label for="contact">Contact No.</label>
+                    <input type="number" id="contact" placeholder="Enter the contact number"/>
+                    <label for="Add customer">Customer Name</label>
+                    <button style="color:white;background-color: darkcyan;border:none;padding:7px;"><i class="fa fa-plus"></i></button>
+                        <select style="margin-left:10px;">
+                            <option value="Cash Bill" selected disabled>Cash Bill</option>
+                            <option>First cash bill</option>
+                            <option>Second cash bill</option>
+                            <option>Third cash bill</option>
+                        </select>
+                        <label for="Name">Name</label>
+                        <input type="text" id="Name" placeholder="Enter the Name" />
+                        <label for="date">Date</label>
+                        <input type="date" id="date"/>
+                        <div class="form-division">
+                            <div class="form-1">
+                            <table>
+                                <tr style="background-color:#384c63;color:white;height:55px;">
+                                    <th ></th>
+                                    <th>Item/EAN<br>Code</th>
+                                    <th>Item Name</th>
+                                    <th>Qty</th>
+                                    <th>UOM</th>
+                                    <th>Rate</th>
+                                    <th>Disc %</th>
+                                    <th>Disc</th>
+                                    <th>GST %</th>
+                                    <th>CGST</th>
+                                    <th>SGST</th>
+                                    <th>Amount</th>
+                                    <!-- <th></th> -->
+                                </tr>
+                                <tr class="set-input">
+                                    <td><button class="close"><i class="fa fa-close"></i></button></td>
+                                    <td><input type="text" id="EAN"/></td>
+                                    <td><input type="text" id="name"/></td>
+                                    <td><input type="text" id="qty"/></td>
+                                    <td><input type="text" id="uom"/></td>
+                                    <td><input type="text" id="rate"/></td>
+                                    <td><input type="text" id="disc%"/></td>
+                                    <td><input type="text" id="disc"/></td>
+                                    <td><input type="text" id="gst"/></td>
+                                    <td><input type="text" id="cgst"/></td>
+                                    <td><input type="text" id="sgst"/></td>
+                                    <td><input type="text" id="amount"/></td>
+                                </tr>
+                                <tr class="set-input">
+                                    <td><button class="close"><i class="fa fa-close"></i></button></td>
+                                    <td><input type="text" id="EAN"/></td>
+                                    <td><input type="text" id="name"/></td>
+                                    <td><input type="text" id="qty"/></td>
+                                    <td><input type="text" id="uom"/></td>
+                                    <td><input type="text" id="rate"/></td>
+                                    <td><input type="text" id="disc%"/></td>
+                                    <td><input type="text" id="disc"/></td>
+                                    <td><input type="text" id="gst"/></td>
+                                    <td><input type="text" id="cgst"/></td>
+                                    <td><input type="text" id="sgst"/></td>
+                                    <td><input type="text" id="amount"/></td>
+                                </tr>
+                            </table>
+                            <br>
+                            <hr>
+                            <button class="AddItem"><i class="fa fa-plus">AddItem</i></button>
+                            </div>
+                            
+                            <div class="form-2">
+                                    <h1 class="hd">Sales Info</h1>
+                                        <table class="form-2-table" style="width:100%">
+                                            <tr>
+                                                <td>
+                                                   Subtotal
+                                                </td>
+                                                 <td>
+                                                     <form>
+                                                        <input type="text" id="subtotal" name="Subtotal" placeholder="Enter the ammount" style="width:90px;">
+                                                    </form> 
+                                                </td>
+                                                <td>
+                                                    Discount amount
+                                                </td>
+                                                 <td>
+                                                     <form>
+                                                        <input type="text" id="discount_amount" name="Discount amount" placeholder="Enter the ammount">
+                                                    </form> 
+                                                </td>  
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Discount%
+                                                </td>
+                                                <td>
+                                                    <form>
+                                                        <input type="text" id="discount%" name="Discount%" placeholder="Enter the %">
+                                                    </form>
+                                                </td>
+                                                <td>
+                                                   Sub Discount
+                                                </td>
+                                                <td>
+                                                    <form>
+                                                        <input type="text" id="sub_discount" name="Sub Discount" placeholder="Enter the sub discount">
+                                                    </form>
+                                                </td>
+                                                
+                                            </tr>
+                                            <tr >
+                                                <td>
+                                                    Total Tax
+                                                </td>
+                                                <td>
+                                                    <form>
+                                                        <input type="text" id="total_tax" name="Total Tax" placeholder="Tax">
+                                                    </form>
+                                                </td>
+                                                <td>
+                                                   Total Vat after Tax
+                                                </td>
+                                                <td>
+                                                    <form>
+                                                        <input type="text" id="fname" name="fname" placeholder="vat calculated">
+                                                    </form>
+                                                </td>
+                                              
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                  Sales Tax
+                                                </td>
+                                                <td>
+                                                    <form>
+                                                        <select style="height:80%;width:94%">
+                                                            <option value="0">Select</option>
+                                                            <option value="1">20</option>
+                                                            <option value="2">30</option>
+                                                        </select>
+                                                    </form>
+                                                </td>
+                                                <td>
+                                                   Sales return
+                                                </td>
+                                                <td>
+                                                    <form>
+                                                        <input type="text" id="fname" name="fname" placeholder="Enter return">
+                                                    </form>
+                                                </td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Round Off
+                                                </td>
+                                                <td>
+                                                    <form>
+                                                        <input type="text" id="fname" name="fname">
+                                                    </form>
+                                                </td>
+                                                <td>
+                                                    Extra charges
+                                                </td>
+                                                <td>
+                                                    <form>
+                                                        <input type="text" id="fname" name="fname">
+                                                    </form>
+                                                </td>
+                                              
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Grand Amount
+                                                </td>
+                                                <td>
+                                                    <form>
+                                                        <input type="text" id="fname" name="fname"  style="background-color: lightgray;" disabled>
+                                                    </form>
+                                                </td>
+                                                <td>
+                                                 Total Amount Received
+                                                </td>
+                                                <td>
+                                                    <form>
+                                                        <input type="text" id="fname" name="fname"  style="background-color: lightgray;" disabled>
+                                                    </form>
+                                                </td>
+                                              
+                                            </tr>
+                                            <tr style="width:100%;">
+                                                <td style="width: 25%;">
+                                                   Bal to Rcv
+                                                </td>
+                                                <td style="width: 25%;">
+                                                    <form>
+                                                        <input type="text" id="fname" name="fname" style="background-color: lightgray;" disabled>
+                                                    </form>
+                                                </td>
+                                                <td style="width: 25%;">
+                                                   Bal to Customer
+                                                </td>
+                                                <td style="width: 25%;">
+                                                    <form>
+                                                        <input type="text" id="fname" name="fname"style="background-color: lightgray;" disabled>
+                                                    </form>
+                                                </td>
+                                              
+                                            </tr>
+                                        </table>
+                                      
+                               
+                                    <h1 class="hd1">
+                                        <form>
+                                            
+                                            <label for="card"> Card</label>
+                                            <input type="checkbox" id="card" name="Card" value="card" style="margin-right:5%;">
+                                            <label for="cheque"> Cheque</label>
+                                            <input type="checkbox" id="cheque" name="Cheque" value="cheque" style="margin-right:5%;">
+                                            <label for="voucher"> Voucher</label>
+                                            <input type="checkbox" id="voucher" name="Voucher" value="voucher" style="margin-right:5%;">
+                                            <label for="cash"> Cash</label>
+                                            <input type="checkbox" id="cash" name="Cash" value="voucher">
+                                          </form>
+                                    </h1>
+                                    <div class="f2" style="width: 100%;display:flex;">
+                                    <table>
+                                       
+                                        <tr>
+                                            <td >
+                                                Card Amount
+                                            </td>
+                                            <td >
+                                                <form>
+                                                    <input type="text" id="fname" name="fname">
+                                                </form>
+                                            </td>
+                                            <td >
+                                             Bank
+                                            </td>
+                                           
+                                            
+                                        </tr>
+                                        <tr >
+                                            <td >
+                                                Check Amount
+                                            </td>
+                                            <td>
+                                                <form>
+                                                    <input type="text" id="fname" name="fname">
+                                                </form>
+                                            </td>
+                                            <td style="width: 50%;">
+                                               Bank
+                                            </td>
+                                            
+                                          
+                                        </tr>
+                                        <tr>
+                                            <td >
+                                                Voucher amount
+                                            </td>
+                                            <td >
+                                                <form>
+                                                    <input type="text" id="voucher_amount" name="Voucher amount">
+                                                </form>
+                                            </td>
+                                            <td style="width: 50%;">
+                                                Bank
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td >
+                                                Counter Cash
+                                            </td>
+                                            <td >
+                                                <form>
+                                                    <input type="text" id="counter_cash" name="Counter Cash">
+                                                </form>
+                                            </td>
+                                            <td style="width: 50%;">
+                                                Cash
+                                            </td>
+                                            
+                                        </tr>
+                                        </table>
+                                        <table>
+                                       
+                                            <tr>
+                                                <td>
+                                                    <select class="form-2-drop">
+                                                        <option value="0">Select</option>
+                                                        <option value="1">Audi</option>
+                                                        <option value="2">BMW</option>
+                                                    </select>
+                                                </td>
+                                                <td >
+                                                    Cash Dtls
+                                                   </td>
+                                                <td >
+                                                    <form>
+                                                        <input type="text" id="fname" name="fname"  style=width:70px;height:40%;>
+                                                    </form>
+                                                </td>
+                                            </tr>
+                                            <tr >
+                                                <td>
+                                                    <select class="form-2-drop">
+                                                        <option value="0">Select</option>
+                                                        <option value="1">Audi</option>
+                                                        <option value="2">BMW</option>
+                                                    </select>
+                                                </td>
+                                                <td >
+                                                    Cheque Dtls
+                                                   </td>
+                                                <td >
+                                                    <form>
+                                                        <input type="text" id="cheq_dtls" name="cheque Dtls"style=width:70px;height:40%;>
+                                                    </form>
+                                                </td>
+                                              
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <select class="form-2-drop">
+                                                        <option value="0">Select</option>
+                                                        <option value="1">abc</option>
+                                                        <option value="2">bcd</option>
+                                                    </select>
+                                                </td>
+                                                <td >
+                                                    Voucher Dtls
+                                                   </td>
+                                                <td >
+                                                    <form>
+                                                        <input type="text" id="fname" name="fname" style=width:70px;height:40%;>
+                                                    </form>
+                                                </td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <form>
+                                                        <input type="text" id="fname" name="fname">
+                                                    </form>
+                                                </td>
+                                            </tr>
+                                            
+                                            </table>
+                                            </div>
+                                <!-- </section> -->
+                            </div>
+                            <div class="button-flex">
+                                <div><button style="background-color:darkcyan;"> Save</button></div>
+                                <div><button style="background-color:#deae02;">Cancel</button></div>
+                                </div>
+                                   </div>
+                        </div>
+                </form>
+
+            </div>
+        </div>
+
+          </div>
+          
+    </body>
+</html>
